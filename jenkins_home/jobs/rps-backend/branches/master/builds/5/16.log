@@ -1,0 +1,6 @@
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ@2] Running shell script
++ ./gradlew clean build
+Starting a Gradle Daemon, 1 busy Daemon could not be reused, use --status for details
+:clean UP-TO-DATE
+:compileJavaSending interrupt signal to process
+Terminated

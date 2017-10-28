@@ -1,0 +1,44 @@
+commit a7ca8ddbcd936dc830d66afbf6b418b1a18be167
+tree afe324e4bfbb507da44c863119dd3cf7b7f98768
+parent b321a6453e0a0e91301af059f5a8a13e1d73b5a6
+author Husamay <husamay07@gmail.com> 2017-10-28 16:18:34 +0200
+committer Husamay <husamay07@gmail.com> 2017-10-28 16:18:34 +0200
+
+    changed jenkinsfile
+
+
+
+:100644 100644 c6a4d4c082171e51fb557f43d0f72bd76bc8f66b 253ccf2ba3ac2835c9f4ceb37f97e47d73bd1fa6 M	Jenkinsfile
+commit b321a6453e0a0e91301af059f5a8a13e1d73b5a6
+tree 048dd57ccc90c526c124ffe86535a635adb4f7c5
+parent dd9f13bd79cea0deecf4f82e841c6e10c353803c
+author Husamay <husamay07@gmail.com> 2017-10-28 16:15:57 +0200
+committer Husamay <husamay07@gmail.com> 2017-10-28 16:15:57 +0200
+
+    Jenkins file changed
+
+
+
+:100644 100644 77e061d2958aa8b9193ffe9feaca415abf8ee161 c6a4d4c082171e51fb557f43d0f72bd76bc8f66b M	Jenkinsfile
+commit dd9f13bd79cea0deecf4f82e841c6e10c353803c
+tree e305bea4557f1eccc8e6f5efce4ad10f5aefdc3b
+parent a45e057766a8585ca078fe3114860254be1023fb
+author Husamay <husamay07@gmail.com> 2017-10-28 16:13:29 +0200
+committer Husamay <husamay07@gmail.com> 2017-10-28 16:13:29 +0200
+
+    changed jenkins file
+
+
+
+:100644 100644 ad0db998340f930efa6963b06544d2711e32f458 77e061d2958aa8b9193ffe9feaca415abf8ee161 M	Jenkinsfile
+commit a45e057766a8585ca078fe3114860254be1023fb
+tree 16f96e1d4c39e90ea86445cc8da20789f56609b9
+parent 748125fca61c62b41ffa6d467d372cedf46b37c0
+author Husamay <husamay07@gmail.com> 2017-10-28 16:11:12 +0200
+committer Husamay <husamay07@gmail.com> 2017-10-28 16:11:12 +0200
+
+    Changed jenkinsfile
+
+
+
+:100644 100644 e936b865a2f41ed09be3f4cdab58d1fb929fc07d ad0db998340f930efa6963b06544d2711e32f458 M	Jenkinsfile

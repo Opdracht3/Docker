@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-10-23 18:42:08.705 UTC</timestamp>
+  <md5sum>07310683b7d3e8a4d44f30ae6089e27e</md5sum>
+  <fileName>Credential id=docker-repo name=husamay/******</fileName>
+  <usages>
+    <entry>
+      <string>rps-backend/master</string>
+      <ranges>16-17</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

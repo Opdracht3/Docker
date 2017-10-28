@@ -1,0 +1,52 @@
+Started by user [8mha:////4L8G0Vb/D8rkfp86MIp4qS29WzZwuytABT+nA68trUQEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins5743705282131023665.sh
++ sudo curl -v POST -H Content-Type: application/tar --data-binary @Dockerfile.tar.gz --unix-socket /var/run/docker.sock http:/build?t=sample
+Warning: Couldn't read data from file "Dockerfile.tar.gz", this makes an empty 
+Warning: POST.
+* Rebuilt URL to: POST/
+*   Trying /var/run/docker.sock...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to POST (/var/run/docker.sock) port 80 (#0)
+> POST / HTTP/1.1
+> Host: POST
+> User-Agent: curl/7.52.1
+> Accept: */*
+> Content-Type: application/tar
+> Content-Length: 0
+> 
+< HTTP/1.1 404 Not Found
+< Content-Type: application/json
+< Date: Sun, 22 Oct 2017 17:01:36 GMT
+< Content-Length: 29
+* HTTP error before end of send, stop sending
+< 
+{ [29 bytes data]
+* Curl_http_done: called premature == 0
+100    29  100    29    0     0  51785      0 --:--:-- --:--:-- --:--:-- 29000
+* Closing connection 0
+{"message":"page not found"}
+* Unwillingly accepted illegal URL using 1 slash!
+* Rebuilt URL to: http://build/?t=sample
+*   Trying /var/run/docker.sock...
+* Connected to build (/var/run/docker.sock) port 80 (#1)
+> POST /?t=sample HTTP/1.1
+> Host: build
+> User-Agent: curl/7.52.1
+> Accept: */*
+> Content-Type: application/tar
+> Content-Length: 0
+> 
+< HTTP/1.1 404 Not Found
+< Content-Type: application/json
+< Date: Sun, 22 Oct 2017 17:01:36 GMT
+< Content-Length: 29
+* HTTP error before end of send, stop sending
+< 
+{ [29 bytes data]
+* Curl_http_done: called premature == 0
+100    29  100    29    0     0   102k      0 --:--:-- --:--:-- --:--:--  102k
+* Closing connection 1
+{"message":"page not found"}
+Finished: SUCCESS

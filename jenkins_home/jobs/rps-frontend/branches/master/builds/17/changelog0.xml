@@ -1,0 +1,11 @@
+commit 233176020e30785008b5902c89abf78bbd3e833f
+tree 78eea83c7aeba365d88f0ab6ef1308037182c70f
+parent c434d88ba811289b113036b5de61fe8d2c9c46b7
+author Husamay <husamay07@gmail.com> 2017-10-28 22:12:56 +0200
+committer Husamay <husamay07@gmail.com> 2017-10-28 22:12:56 +0200
+
+    Karma test chrome plugin
+
+
+
+:100644 100644 99b91fd61bd0afe91b60d5a6fc0dc44b7ef0b201 e091e0115b61cdc8be022cccee9dd120b34ea379 M	karma.conf.js

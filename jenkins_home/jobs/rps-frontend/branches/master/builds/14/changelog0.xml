@@ -1,0 +1,11 @@
+commit 08c33bcee1ffe742bef465efd042f1fdf11a094e
+tree cc46c21b98337ac94a8bad817cb88d4ba586325a
+parent a7ca8ddbcd936dc830d66afbf6b418b1a18be167
+author Husamay <husamay07@gmail.com> 2017-10-28 21:09:48 +0200
+committer Husamay <husamay07@gmail.com> 2017-10-28 21:09:48 +0200
+
+    added karma test
+
+
+
+:100644 100644 253ccf2ba3ac2835c9f4ceb37f97e47d73bd1fa6 2ba506679060816926714c3cbb9e78e5fbf428f9 M	Jenkinsfile

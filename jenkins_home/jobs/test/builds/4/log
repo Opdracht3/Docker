@@ -1,0 +1,12 @@
+Started by user [8mha:////4L8G0Vb/D8rkfp86MIp4qS29WzZwuytABT+nA68trUQEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins7375116146279010278.sh
++ sudo curl --unix-socket /var/run/docker.sock http:/v1.24/containers/1c6594faf5/logs?stdout=1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    44  100    44    0     0    99k      0 --:--:-- --:--:-- --:--:-- 44000
+{"message":"No such container: 1c6594faf5"}
++ hello world
+/tmp/jenkins7375116146279010278.sh: 3: /tmp/jenkins7375116146279010278.sh: hello: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

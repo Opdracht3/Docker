@@ -1,0 +1,12 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Opdracht3/rps-frontend.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/Opdracht3/rps-frontend.git
+ > git --version # timeout=10
+ > git fetch --no-tags --progress https://github.com/Opdracht3/rps-frontend.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 08c33bcee1ffe742bef465efd042f1fdf11a094e (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 08c33bcee1ffe742bef465efd042f1fdf11a094e
+Commit message: "added karma test"
+ > git rev-list 08c33bcee1ffe742bef465efd042f1fdf11a094e # timeout=10

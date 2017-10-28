@@ -1,0 +1,222 @@
+Started by user [8mha:////4L8G0Vb/D8rkfp86MIp4qS29WzZwuytABT+nA68trUQEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+ > git rev-parse --is-inside-work-tree # timeout=10
+Setting origin to https://github.com/Opdracht3/rps.git
+ > git config remote.origin.url https://github.com/Opdracht3/rps.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git fetch --tags --progress origin +refs/heads/*:refs/remotes/origin/*
+Seen branch in repository origin/master
+Seen 1 remote branch
+Obtained Jenkinsfile from 40bceb3bf812c29882b4793a89b7e9160eec7989
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4Ix7lrnklxh+yTnvXl4as0Tuk17D5Xmt+zbbhbI8PrhMAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Opdracht3/rps.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/Opdracht3/rps.git
+ > git --version # timeout=10
+ > git fetch --no-tags --progress https://github.com/Opdracht3/rps.git +refs/heads/*:refs/remotes/origin/*
+Checking out Revision 40bceb3bf812c29882b4793a89b7e9160eec7989 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 40bceb3bf812c29882b4793a89b7e9160eec7989
+Commit message: "jenkinsfile changed"
+ > git rev-list cd486970e2137bfc3454475c8463ca9c3bb8c8ea # timeout=10
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build)
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Building..
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ chmod +x gradlew
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ ./gradlew clean build
+Starting a Gradle Daemon (subsequent builds will be faster)
+:clean
+:compileJava
+:processResources
+:classes
+:findMainClass
+:jar
+:bootRepackage
+:assemble
+:compileTestJava NO-SOURCE
+:processTestResources NO-SOURCE
+:testClasses UP-TO-DATE
+:test NO-SOURCE
+:check UP-TO-DATE
+:build
+
+BUILD SUCCESSFUL in 4s
+6 actionable tasks: 6 executed
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Package)
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Building..
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ ./gradlew bootRepackage
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:findMainClass
+:jar
+:bootRepackage
+
+BUILD SUCCESSFUL in 1s
+5 actionable tasks: 3 executed, 2 up-to-date
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Test)
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Testing..
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Build Docker)
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Buildin docker.
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withCredentials
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ sudo docker login -u=**** -p=****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+Login Succeeded
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ sudo docker build . --tag ****/rps-backend:0.1.17
+Sending build context to Docker daemon  30.11MB
+Step 1/6 : FROM openjdk:8-jdk-slim
+ ---> 4c6a18e83c0d
+Step 2/6 : EXPOSE 8080
+ ---> Using cache
+ ---> 7d72cae5d2b9
+Step 3/6 : VOLUME /tmp
+ ---> Using cache
+ ---> 6b062fc259ce
+Step 4/6 : ADD /bin/libs/spring-rps-service-1.0.jar spring-rps-service-1.0.jar
+ ---> ccb189c265b1
+Step 5/6 : RUN sh -c 'touch /spring-rps-service-1.0.jar'
+ ---> Running in 294421f73b06
+ ---> b8ab4d42cf97
+Removing intermediate container 294421f73b06
+Step 6/6 : ENTRYPOINT java -jar /spring-rps-service-1.0.jar
+ ---> Running in a550ca0f10f0
+ ---> 1527ffda5725
+Removing intermediate container a550ca0f10f0
+Successfully built 1527ffda5725
+Successfully tagged ****/rps-backend:0.1.17
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withCredentials
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Deploy Docker)
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Deploying 0.1.${BUILD_NUMBER} to repo....
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ sudo docker push husamay/rps-backend:0.1.17
+The push refers to a repository [docker.io/husamay/rps-backend]
+97d27c7d6da8: Preparing
+31cd6e714c50: Preparing
+6c822b4fa808: Preparing
+9cc5ba890a82: Preparing
+d1b379aadce4: Preparing
+f4c495f94812: Preparing
+eb05d3354c13: Preparing
+cec7521cdf36: Preparing
+f4c495f94812: Waiting
+eb05d3354c13: Waiting
+cec7521cdf36: Waiting
+d1b379aadce4: Layer already exists
+6c822b4fa808: Layer already exists
+9cc5ba890a82: Layer already exists
+f4c495f94812: Layer already exists
+eb05d3354c13: Layer already exists
+cec7521cdf36: Layer already exists
+97d27c7d6da8: Pushed
+31cd6e714c50: Pushed
+0.1.17: digest: sha256:d7c67ee6b4477f2100182f9507ce2985cccb1b990cd60322621ab2e48023204c size: 1999
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+Deploying latest tag to repo....
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ sudo docker push husamay/rps-backend
+The push refers to a repository [docker.io/husamay/rps-backend]
+9f392779d00f: Preparing
+ac4fc32ddcb5: Preparing
+6c822b4fa808: Preparing
+9cc5ba890a82: Preparing
+d1b379aadce4: Preparing
+f4c495f94812: Preparing
+eb05d3354c13: Preparing
+cec7521cdf36: Preparing
+cec7521cdf36: Waiting
+9f392779d00f: Layer already exists
+6c822b4fa808: Layer already exists
+ac4fc32ddcb5: Layer already exists
+9cc5ba890a82: Layer already exists
+d1b379aadce4: Layer already exists
+f4c495f94812: Layer already exists
+cec7521cdf36: Layer already exists
+eb05d3354c13: Layer already exists
+0.1.16: digest: sha256:d69c176058908916106da92b1fa5ef0de953e0b3987cb17c148efb84c824ea09 size: 1999
+97d27c7d6da8: Preparing
+31cd6e714c50: Preparing
+6c822b4fa808: Preparing
+9cc5ba890a82: Preparing
+d1b379aadce4: Preparing
+f4c495f94812: Preparing
+eb05d3354c13: Preparing
+cec7521cdf36: Preparing
+d1b379aadce4: Layer already exists
+f4c495f94812: Waiting
+9cc5ba890a82: Layer already exists
+f4c495f94812: Layer already exists
+cec7521cdf36: Waiting
+6c822b4fa808: Layer already exists
+eb05d3354c13: Layer already exists
+cec7521cdf36: Layer already exists
+97d27c7d6da8: Layer already exists
+31cd6e714c50: Layer already exists
+0.1.17: digest: sha256:d7c67ee6b4477f2100182f9507ce2985cccb1b990cd60322621ab2e48023204c size: 1999
+03ba74e0e698: Preparing
+d9d5eb261b8e: Preparing
+6c822b4fa808: Preparing
+9cc5ba890a82: Preparing
+d1b379aadce4: Preparing
+f4c495f94812: Preparing
+eb05d3354c13: Preparing
+cec7521cdf36: Preparing
+6c822b4fa808: Layer already exists
+d1b379aadce4: Layer already exists
+9cc5ba890a82: Layer already exists
+f4c495f94812: Layer already exists
+cec7521cdf36: Layer already exists
+eb05d3354c13: Layer already exists
+03ba74e0e698: Layer already exists
+d9d5eb261b8e: Layer already exists
+0.1.8: digest: sha256:8ee61b032b61e58d0f29b19871e40c24e86c1a8783fa6a7d321d2b14524505ea size: 1999
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4AY/qtmwf9tMyDNS/mpuo8eIqJOJ84v+2kZpRUhocFEbAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,4 @@
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ docker build . --tag husamay/rps-backend:7
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.32/build?buildargs=%7B%7D&cachefrom=%5B%5D&cgroupparent=&cpuperiod=0&cpuquota=0&cpusetcpus=&cpusetmems=&cpushares=0&dockerfile=Dockerfile&labels=%7B%7D&memory=0&memswap=0&networkmode=default&rm=1&session=79a444658e8db45261dfd7eb15cce7e9ff159befd947c910c11fbc0b4427ffc5&shmsize=0&t=husamay%2Frps-backend%3A7&target=&ulimits=null: dial unix /var/run/docker.sock: connect: permission denied
+time="2017-10-23T18:07:33Z" level=error msg="failed to dial gRPC: cannot connect to the Docker daemon. Is 'docker daemon' running on this host?: dial unix /var/run/docker.sock: connect: permission denied" 

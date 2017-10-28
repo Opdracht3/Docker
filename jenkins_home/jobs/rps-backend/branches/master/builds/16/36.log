@@ -1,0 +1,23 @@
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ sudo docker build . --tag ****/rps-backend:0.1.16
+Sending build context to Docker daemon   30.1MB
+Step 1/6 : FROM openjdk:8-jdk-slim
+ ---> 4c6a18e83c0d
+Step 2/6 : EXPOSE 8080
+ ---> Using cache
+ ---> 7d72cae5d2b9
+Step 3/6 : VOLUME /tmp
+ ---> Using cache
+ ---> 6b062fc259ce
+Step 4/6 : ADD /bin/libs/spring-rps-service-1.0.jar spring-rps-service-1.0.jar
+ ---> 25e9df45f7a2
+Step 5/6 : RUN sh -c 'touch /spring-rps-service-1.0.jar'
+ ---> Running in e4d9d3da495b
+ ---> 9f04a1567b8c
+Removing intermediate container e4d9d3da495b
+Step 6/6 : ENTRYPOINT java -jar /spring-rps-service-1.0.jar
+ ---> Running in dda98bd7d070
+ ---> 16dcd30ea51b
+Removing intermediate container dda98bd7d070
+Successfully built 16dcd30ea51b
+Successfully tagged ****/rps-backend:0.1.16

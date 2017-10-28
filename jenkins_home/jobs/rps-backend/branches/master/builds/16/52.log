@@ -1,0 +1,3 @@
+[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
++ sudo sloppy start --var=domain:rps-project.sloppy.zone ./sloppy.json
+sudo: sloppy: command not found

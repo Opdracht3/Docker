@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.15">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.14"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.3">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.6.1">
+        <head plugin="scm-api@2.2.3">
+          <name>master</name>
+        </head>
+        <hash>748125fca61c62b41ffa6d467d372cedf46b37c0</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.6.1">
+      <buildsByBranchName>
+        <entry>
+          <string>master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.5.0">
+              <sha1>748125fca61c62b41ffa6d467d372cedf46b37c0</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>4</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/Opdracht3/Frontend.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.6.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/Opdracht3/Frontend.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.41">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>49</queueId>
+  <timestamp>1509198794450</timestamp>
+  <startTime>1509198794453</startTime>
+  <result>FAILURE</result>
+  <duration>4975</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+    def app
+
+    stage(&apos;Clone repository&apos;) {
+        /* Let&apos;s make sure we have the repository cloned to our workspace */
+        checkout scm
+    }
+
+    stage(&apos;Build image&apos;) {
+        /* This builds the actual image; synonymous to
+         * docker build on the command line */
+
+        app = docker.build(&quot;opdracht3/frontend&quot;)
+    }
+
+    stage(&apos;Test image&apos;) {
+        /* Ideally, we would run a test framework against our image.
+         * For this example, we&apos;re using a Volkswagen-type approach ;-) */
+
+      sh &apos;sudo docker rm demo || true&apos;
+      sh &apos;sudo docker run -t --rm --name frontend-container opdracht3/frontend &amp;&apos;
+      sh &apos;sleep 5s&apos;
+      sh &apos;sudo docker exec -t frontend-container bash -c \&apos;ls -l\&apos;&apos;
+      sh &apos;sudo docker stop frontend-container&apos;
+
+    }
+
+    stage(&apos;Push image&apos;) {
+        /* Finally, we&apos;ll push the image with two tags:
+         * First, the incremental build number from Jenkins
+         * Second, the &apos;latest&apos; tag.
+         * Pushing multiple tags is cheap, as all the layers are reused. */
+      withCredentials([usernamePassword(credentialsId: &apos;docker-hub-credentials&apos;,
+                     usernameVariable: &apos;USERNAME&apos;, passwordVariable: &apos;PASSWORD&apos;)]) {
+        sh &quot;sudo docker login -u=${env.USERNAME} -p=$PASSWORD&quot;
+        sh &quot;sudo docker tag opdracht3/frontend tbrewster/frontend:${env.BUILD_NUMBER}&quot;
+        sh &quot;sudo docker push tbrewster/frontend:${env.BUILD_NUMBER}&quot;
+      }
+    }
+}
+</script>
+    <loadedScripts class="map"/>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>64461523</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>2909488012</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1941300363</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>746840019</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>203301123</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>17</iota>
+    <head>1:17</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.6.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://github.com/Opdracht3/Frontend.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q</workspace>
+      <changelogFile>/var/jenkins_home/jobs/rps-frontend/branches/master/builds/4/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

@@ -1,0 +1,22 @@
+[rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q] Running shell script
++ npm install
+
+> node-sass@4.5.3 install /var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.5.3/linux-x64-57_binding.node
+Download complete
+Binary saved to /var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q/node_modules/node-sass/vendor/linux-x64-57/binding.node
+Caching binary to /var/jenkins_home/.npm/node-sass/4.5.3/linux-x64-57_binding.node
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall /var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q/node_modules/uglifyjs-webpack-plugin
+> node lib/post_install.js
+
+
+> node-sass@4.5.3 postinstall /var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q/node_modules/node-sass/vendor/linux-x64-57/binding.node
+Testing binary
+Binary is fine
+added 972 packages in 21.603s

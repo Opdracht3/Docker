@@ -1,0 +1,11 @@
+commit 40bceb3bf812c29882b4793a89b7e9160eec7989
+tree d4aaed3f79ff45b44719cff7e99a2388ef02b33c
+parent cd486970e2137bfc3454475c8463ca9c3bb8c8ea
+author Husamay <husamay07@gmail.com> 2017-10-23 20:44:16 +0200
+committer Husamay <husamay07@gmail.com> 2017-10-23 20:44:16 +0200
+
+    jenkinsfile changed
+
+
+
+:100644 100644 b38a14622e591d2ef43f96b44a4ab052e5031420 b59655cfcf30dd2c2cffbdb6cd5b8ccec7161484 M	Jenkinsfile
