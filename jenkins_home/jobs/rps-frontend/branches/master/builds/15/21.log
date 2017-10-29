@@ -1,3 +1,0 @@
-[rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q] Running shell script
-+ npm build
-npm WARN build `npm build` called with no arguments. Did you mean to `npm run-script build`?

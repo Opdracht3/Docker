@@ -1,12 +1,0 @@
-Started by user [8mha:////4L8G0Vb/D8rkfp86MIp4qS29WzZwuytABT+nA68trUQEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Building in workspace /var/jenkins_home/workspace/test
-[test] $ /bin/sh -xe /tmp/jenkins6231801397281523982.sh
-+ sudo curl --unix-socket /var/run/docker.sock -H Content-Type: application/json -d {"Image": "alpine", "Cmd": ["echo", "hello world"]} -X POST http:/v1.24/containers/create
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    94  100    43  100    51  55627  65976 --:--:-- --:--:-- --:--:-- 51000
-{"message":"No such image: alpine:latest"}
-+ {Id:1c6594faf5,Warnings:null}
-/tmp/jenkins6231801397281523982.sh: 5: /tmp/jenkins6231801397281523982.sh: {Id:1c6594faf5,Warnings:null}: not found
-Build step 'Execute shell' marked build as failure
-Finished: FAILURE

@@ -1,2 +1,2 @@
 *.tmp
-jenkins_home\
+jenkins_home\*

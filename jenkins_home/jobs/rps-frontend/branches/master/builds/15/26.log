@@ -1,3 +1,0 @@
-[rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q] Running shell script
-+ ng test --progress false --watch false
-/var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q@tmp/durable-6cf6509d/script.sh: 2: /var/jenkins_home/workspace/rps-frontend_master-7RUPK2CFND7BEP24KQDA43WNWFB6FK63PMRLOTLLWQKXJCHJBB4Q@tmp/durable-6cf6509d/script.sh: ng: not found

@@ -1,4 +1,0 @@
-[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
-+ sudo docker login -u=**** -p=****
-WARNING! Using --password via the CLI is insecure. Use --password-stdin.
-Error response from daemon: Get https://registry-1.docker.io/v2/: unauthorized: incorrect username or password

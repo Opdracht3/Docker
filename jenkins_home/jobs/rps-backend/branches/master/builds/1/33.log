@@ -1,3 +1,0 @@
-[rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ] Running shell script
-+ docker build . --tag husamay/rps-backend:1
-/var/jenkins_home/workspace/rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ@tmp/durable-da9ebc21/script.sh: 2: /var/jenkins_home/workspace/rps-backend_master-2CQFYV2JUDAYL3STJXQ73TMCXPN3USY2A4FQLFTYGJXHYYBAN2YQ@tmp/durable-da9ebc21/script.sh: docker: not found
